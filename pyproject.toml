@@ -1,0 +1,18 @@
+[project]
+name = "fifgroup_customer_growth_dashboard"
+version = "0.1.0"
+description = "An interactive dashboard tracking customer and booking growth by location"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit==1.41.1",
+    "streamlit_folium==0.24.0",
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "geopandas==1.0.1",
+    "openpyxl==3.1.2",
+    "branca==0.8.1",
+    "pyarrow==19.0.1",
+    "altair==5.5.0",
+    "numerize==0.12"
+]
